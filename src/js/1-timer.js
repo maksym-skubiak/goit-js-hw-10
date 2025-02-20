@@ -1,5 +1,4 @@
 const datetimePicker = document.getElementById('datetime-picker');
-
 const startButton = document.getElementById('start-button');
 
 let userSelectedDate = null;
