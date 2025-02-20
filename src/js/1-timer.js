@@ -3,6 +3,7 @@ const datetimePicker = document.getElementById('datetime-picker');
 const startButton = document.getElementById('start-button');
 
 let userSelectedDate = null;
+let timerInterval;
 
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
